@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Forms and Form Validation</title>
+    <style>
+        small {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input required minlength="3" maxlength="10"  type="text" placeholder="name" pattern="[a-z][A-Z][0-9]">
+        <small hidden>Your name should be more than 2 characters</small>
+        <input type="email" placeholder="email">
+        <input type="password" placeholder="password">
+        <select>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <textarea placeholder="Tell us about you...."></textarea>
+        <input type="submit" value="Submit">
+    </form>
+    <form autocomplete="off">
+        <div class="form-group">
+            <label for="email">Email: </label>
+            <input type="text" id="email" placeholder="Enter your email: ">
+            <small class="error" id="emailError"></small>
+        </div>
+        <div class="form-group">
+            <label for="password">Password: </label>
+            <input type="password" id="password" placeholder="Enter your Password: ">
+            <small class="error" id="passwordError"></small>
+        </div>
+        <button type="submit">Validate</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
