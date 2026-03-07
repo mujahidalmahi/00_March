@@ -3,11 +3,11 @@
 // Hoisting:::::
     // Js main code run hone sain pehle hii memeory lee leta hain aur by default sabhi declarations upar chala jata hain, ese hoisting kehte hain. Hoisting main var variables koo undefined value assign hoo jata hain aur let and const main assign nehi hota aur early access karne pain referenceError deta hain
 console.log(x); // undefined
-// console.log(y); // reference error
-// console.log(z); // reference error
+console.log(y); // reference error
+console.log(z); // reference error
 var x = 0;
-// let y = 0;
-// const z = 0;
+let y = 0;
+const z = 0;
 
 // Var keywords:::::
     // It's old and risky, it's function scoped can be redeclared and reassigned and hoisted to the top with undefined values
@@ -35,8 +35,8 @@ aaa.name = "Iham"; // no error
     const xz = 2; // reference error
 }
 console.log(xx); // no error
-// console.log(xy); // reference error
-// console.log(xz); // reference error
+console.log(xy); // reference error
+console.log(xz); // reference error
 
 // Use const by default, let when the value needs to be reassigned, never use var
 
