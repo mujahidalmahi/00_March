@@ -1,0 +1,5 @@
+Completed the first part by watching a tutorial of Sheryians Coding School from a playlist of JS Domination on Youtube.
+To be honest, I learned tons of new things, it's not like I started learning js from scratch, but still there was a lot to learn.
+Now, I have cleared all the concepts of the basics of JS. If there is anything left, I will learn it later when it's needed.
+The biggest lesson was forgetting the syntax, sometimes even logics is common and general, I just need to have the skill to search the things and learn again
+Never memorise the Codes, It's not our job, our job is to understand the concepts and utilize those!
