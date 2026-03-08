@@ -1,0 +1,5 @@
+I learned part 2 of JS by the Sheriyans Coding School from the playlist named JS Domination on YouTube.
+I leaned lot of things like DOM manipulation, form validations, Storages, etc. They weren't 100% new to me, as I had some unclear knowledge of these. But this time, the concepts got crystal clear.
+The biggest Lesson: 'The learning journey never ends, so stop trying to learn everything at once. Our job is to build things, not to become the bible of something. If you missed something, that's normal, go ahead and search it, learn it and master it. Then use it to build it
+I tried my best to learn all the things in the tutorial. But I skipped the last section as it wasn't fully focused on JS.
+At the end, it was a good journey so far!!
