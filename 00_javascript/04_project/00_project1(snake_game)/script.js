@@ -40,6 +40,9 @@ for(let row = 0; row < rows; row++) {
 }
 
 function render() {
+    if(localStorage.getItem("highest") === undefined || localStorage.getItem("highest") === null) {
+        highScoreElement.innerText = 0;
+    }
     let head = null;
     blocks[`${food.x}-${food.y}`].classList.add("food");
     if(direction === 'left') {
@@ -55,7 +58,6 @@ function render() {
         blocks[ `${segment.x}-${segment.y}` ].classList.remove("fill");
     })
     if(head.x < 0 || head.x === rows || head.y < 0 || head.y === cols) {
-        alert("Game Over");
         clearInterval(intervalId);
         modal.style.display = "flex";
         startGameModal.style.display = "none";
