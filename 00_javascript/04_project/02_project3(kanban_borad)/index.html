@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="left">
+                <h1>Kanban</h1>
+            </div>
+            <div class="right">
+                <button id="toggle-modal">Add new Task</button>
+            </div>
+        </nav>
+        <section class="board">
+            <div id="todo" class="task-column">
+                <div class="heading">
+                    <div class="left"><h2>To Do</h2></div>
+                    <div class="right"><h3 class="count">Count</h3></div>
+                </div>
+                
+            </div>
+            <div id="progress" class="task-column">
+                <div class="heading">
+                    <div class="left"><h2>In progress</h2></div>
+                    <div class="right"><h3 class="count">Count</h3></div>
+                </div>
+            </div>
+            <div id="done" class="task-column">
+                <div class="heading">
+                    <div class="left"><h2>Done</h2></div>
+                    <div class="right"><h3 class="count">Count</h3></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="modal add-new-task">
+        <div class="bg"></div>
+        <div class="center">
+            <input type="text" name="" id="" placeholder="Task Title">
+            <textarea name="" id="" placeholder="Task Description"></textarea>
+            <button id="add-new-task" class="add-task-btn">Add Task</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
